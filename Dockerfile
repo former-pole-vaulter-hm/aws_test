@@ -12,6 +12,3 @@ RUN pip install -r requirements.txt
 
 # 作業ディレクトリ指定
 WORKDIR /workdir
-
-# 公開ポート指定
-EXPOSE 8080
