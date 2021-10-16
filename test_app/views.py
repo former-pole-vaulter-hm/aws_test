@@ -1,4 +1,4 @@
-from app import app
+from test_app import app
 
 @app.route("/")
 def show():
