@@ -12,3 +12,5 @@ RUN pip install -r requirements.txt
 
 # 作業ディレクトリ指定
 WORKDIR /workdir
+
+EXPOSE 8080
