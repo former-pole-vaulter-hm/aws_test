@@ -1,0 +1,14 @@
+version: '3'
+services:
+  appserver:
+    build: ./
+    ports:
+      - 8080:5000
+    volumes:
+      - .:/workdir
+    environment:
+      TZ: Asia/Tokyo
+      FLASK_APP: test_app
+      FLASK_ENV: development
+    command: flask run -h 0.0.0.0
+    tty: true
